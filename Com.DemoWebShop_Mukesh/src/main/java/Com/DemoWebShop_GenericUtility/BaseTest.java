@@ -45,6 +45,7 @@ public class BaseTest {
 
 	@BeforeSuite
 	public void beforeSuite() {
+		System.out.println("suite");
 
 		System.out.println("suite --- database connection");
 	}
